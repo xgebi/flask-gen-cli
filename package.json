@@ -1,11 +1,17 @@
 {
-  "name": "fgn-cli",
-  "version": "0.0.1",
+  "name": "flask-gen-cli",
+  "version": "0.0.2",
   "description": "Flask module generator CLI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "flask-gen": "./index.js"
+  },
   "author": "Sarah Gebauer (xgebi)",
-  "license": "GPL-3.0-or-later"
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "commander": "^2.20.0"
+  }
 }
