@@ -1,3 +1,5 @@
+This project has been officially abandoned for [fli](https://github.com/xgebi/fli).
+
 # flask-gen CLI (still alpha version)
 
 flask-gen CLI is a small tool for generating things to ease development in Python and flask. Currently it's limited to generating new modules.
